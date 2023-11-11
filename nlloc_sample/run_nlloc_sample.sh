@@ -18,6 +18,7 @@ echo
 
 echo
 echo "Generate the model grid"
+mkdir model gmt time obs_synth loc
 Vel2Grid run/nlloc_sample.in
 echo
 echo "Visualize the model grid"
